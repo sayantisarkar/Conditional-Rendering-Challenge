@@ -1,7 +1,7 @@
 {
-  "name": "conditional-rendering-practice",
+  "name": "conditional-rendering-challenge",
   "version": "1.0.0",
-  "description": "",
+  "description": "Using React",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
