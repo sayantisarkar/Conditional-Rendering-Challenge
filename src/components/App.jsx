@@ -15,12 +15,14 @@ function App() {
   //return <div className="container">{checkUser()}</div>;
   return (
     <div className="container">
+      {/* Shortest way without making components */}
+      <Form userIsRegistered={userIsRegistered} />
       {/* Ternary */}
       {/* {userIsRegistered ? <Form name="Login" /> : <Form name="Register" />} */}
 
       {/* && Operator */}
-      {userIsRegistered && <Form name="Login" />}
-      {!userIsRegistered && <Form name="Register" />}
+      {/* {userIsRegistered && <Form name="Login" />}
+      {!userIsRegistered && <Form name="Register" />} */}
     </div>
   );
 }
